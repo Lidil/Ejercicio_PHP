@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario de suscripcion</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+    <body>
+		<main class="contenido">
+			<h1>Formulario de Registro</h1>
+		
+			<form method="POST" action="index.php" class="formulario" id="formulario">
+	
+			<!-- Grupo: Nombre -->
+				<div class="formulario_grupo" id="grupo_nombre">
+					<label for="nombre" class="formulario_label">Nombre</label>
+					<div class="formulario_g_input">
+						<input type="text" class="formulario_input" name="nombre" id="nombre" required/>
+					</div>
+					
+				</div>
+
+            <!-- Grupo: Apellido -->
+				<div class="formulario_grupo" id="grupo_nombre">
+					<label for="apellido" class="formulario_label">Apellido</label>
+					<div class="formulario_g_input">
+						<input type="text" class="formulario_input" name="apellido" id="apellido"required/>
+					</div>
+			
+				</div>
+			<!-- Grupo: Correo Electronico -->
+				<div class="formulario_grupo" id="grupo_email">
+					<label for="email" class="formulario_label">Email</label>
+					<div class="formulario_g_input">
+						<input type="email" class="formulario_input" name="email" id="email" required/>
+						
+					</div>
+					
+				</div>
+
+
+			<!-- Grupo: Boton -->
+			
+				<div class="formulario_grupo formulario_grupo-boton_enviar">
+					<button type="submit" name="submit" class="formulario_boton">Suscribirse</button>
+			    </div>
+
+			</form>
+            
+		</main>
+        
+</body>
+</html>
